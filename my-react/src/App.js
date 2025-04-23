@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import FocusBlur from './Components/FocusBlur';
+// import FocusBlur from './Components/FocusBlur';
+import OnMouse from './Components/OnMouse';
 // import Props from './Components/Props';
 // import Counter from './Components/Counter';
 // import ClassCounter from './Components/ClassCounter';
@@ -25,7 +26,8 @@ function App() {
        <ObjectDestructure></ObjectDestructure>
        <DestructingArrays></DestructingArrays> */}
        {/* <UpdateText /> */}
-       <FocusBlur />
+       {/* <FocusBlur /> */}
+       <OnMouse />
     </div>
   );
 }

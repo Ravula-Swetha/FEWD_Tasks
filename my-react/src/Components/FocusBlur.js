@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'C:/Users/SAINATH/Documents/Year_3/SEM2/React/my-react/src/CSS/FocusBlur.css';
 
 function FocusBlur() {
   const [message, setMessage] = useState('Click inside the input box');
@@ -21,6 +22,8 @@ function FocusBlur() {
         onBlur={handleBlur}
         style={{ padding: '10px', fontSize: '16px' }}
       />
+
+      <p className="blur-text">Hover over this text to blur it</p>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.blur-text {
+    font-size: 20px;
+    margin-top: 20px;
+    transition: filter 0.3s ease;
+  }
+  
+  .blur-text:hover {
+    filter: blur(2px);
+  }
