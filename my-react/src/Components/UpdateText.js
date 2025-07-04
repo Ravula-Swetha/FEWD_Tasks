@@ -9,7 +9,7 @@ function UpdateText() {
   }
   const handleClick = () => {
     increment();
-    if(count % 2 == 0){
+    if(count % 2 === 0){
        setText('Thanks for clicking the button!');
     }
     else{
